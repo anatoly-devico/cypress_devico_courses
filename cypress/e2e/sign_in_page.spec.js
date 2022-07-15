@@ -23,5 +23,4 @@ describe('UI tests for sign in page', () => {
   // 6. should show disabled by default sign in btn
   // 7. should have 'Don't have an account? Sign Up' clickable link under 'Sign in' btn
   // 8. should show Cypress copyright link that leads to 'https://www.cypress.io/'
-
 })
