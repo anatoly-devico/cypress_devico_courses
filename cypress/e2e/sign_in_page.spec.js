@@ -12,9 +12,10 @@ describe('UI tests for sign in page', () => {
 
   it('should show "Sign in" title', () => {
     cy.get(sign_in_page.title_text).should('be.visible').and('have.text', 'Sign in')
+    cy.get(sign_in_page.get_selector_for_date('some_data')).click()
   })
 
-  // todo: automate foloowing test cases:
+  // Homework 14.07:
   // 1. should show typeable Username field
   // 2. should show typeable Password field
   // 3. should show Username and Password placeholders
@@ -23,5 +24,19 @@ describe('UI tests for sign in page', () => {
   // 6. should show disabled by default sign in btn
   // 7. should have 'Don't have an account? Sign Up' clickable link under 'Sign in' btn
   // 8. should show Cypress copyright link that leads to 'https://www.cypress.io/'
-
 })
+
+  // Homework 19.07:
+// 1. should allow a visitor to sign-up
+// 2. should allow a visitor to login
+// 3. should allow a visitor to logout
+// -----------------------------------
+
+
+
+
+
+
+// 4. should display login errors
+// 5. should display signup errors
+// 6. should error for an invalid user
