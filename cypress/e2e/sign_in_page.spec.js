@@ -44,3 +44,11 @@ describe('UI tests for sign in page', () => {
 // 3. user should be able to delete a bank account
 
 // + create Cypress custom command for user ui_sign_up, ui_login, ui_logout, ui_onboarding
+
+// homework 26.7 // use already existing users from database-seed.json file from app project; password - s3cret
+// 1. navigates to the new transaction form, selects a user and submits a transaction payment
+// 2. navigates to the new transaction form, selects a user and submits a transaction request"
+// 3. displays new transaction errors
+// 4. submits a transaction payment and verifies the deposit for the receiver
+// 5. submits a transaction request and accepts the request for the receiver
+// 6. searches for a user by attribute
