@@ -50,7 +50,7 @@ describe('UI tests for sign in page', () => {
 // 3. should show Username and Password placeholders
 // 4. should show 'Username is required' error if user clicks on it and then click outside this field and didn't enter any value
 // 5. check "Remember me" checkbox
-// 6. should show disabled by default sign in btn
+// 6. should show enabled by default sign in btn
 // 7. should have 'Don't have an account? Sign Up' clickable link under 'Sign in' btn
 // 8. should show Cypress copyright link that leads to 'https://www.cypress.io/'
 
