@@ -15,13 +15,13 @@ describe('UI tests for sign in page', () => {
     cy.intercept("POST", "/users").as("signup");
   })
 
-  it('should show "Real World App logo"', () => {
-    cy.get(sign_in_page.logo_image).should('be.visible').and('have.attr', 'xmlns', 'http://www.w3.org/2000/svg')
-  })
-
-  it('should show "Sign in" title', () => {
-    cy.get(sign_in_page.title_text).should('be.visible').and('have.text', 'Sign in')
-  })
+  // it('should show "Real World App logo"', () => {
+  //   cy.get(sign_in_page.logo_image).should('be.visible').and('have.attr', 'xmlns', 'http://www.w3.org/2000/svg')
+  // })
+  //
+  // it('should show "Sign in" title', () => {
+  //   cy.get(sign_in_page.title_text).should('be.visible').and('have.text', 'Sign in')
+  // })
 
   it("should allow user to sign up", () => {
     cy.signup_ui(userName, password);
@@ -89,3 +89,20 @@ describe('UI tests for sign in page', () => {
 // 4. When user C comments on a transaction between user A and user B, user A and B should get notifications that user C commented on their transaction
 // 5. When user A sends a payment to user B, user B should be notified of payment
 // 6. When user A sends a payment request to user C, user C should be notified of request from user A
+
+// homework 4.8 - create transaction_view.spec.js and automate following tests:
+// 1. transactions navigation tabs should be hidden on a transaction view page
+// 2. User should be able to like a transaction
+// 3. User should be able to comment on a transaction
+// 4. User should be able to accept a transaction request
+// 5. User should be able to reject a transaction request
+// 6. Accept/reject buttons shouldn't exist on completed request
+
+// homework 9.8 - create user_settings.spec.js and automate following tests:
+// 1. Should render the user settings form
+// 2. Should display user setting form errors
+// 3. User should be able to update all settings in once
+// 4. User should be able to update first name
+// 5. User should be able to update last name
+// 6. User should be able to update email
+// 7. User should be able to update phone number
