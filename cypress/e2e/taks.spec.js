@@ -61,3 +61,10 @@
 // 5. User should be able to update last name
 // 6. User should be able to update email
 // 7. User should be able to update phone number
+
+
+// homework 11.8 - create following API functions and put them to cypress commands.js file
+// 1. sign_up_API
+// 2. log_in_API
+// 3. logout_API
+// Refactor your tests using these functions
