@@ -62,9 +62,14 @@
 // 6. User should be able to update email
 // 7. User should be able to update phone number
 
-
 // homework 11.8 - create following API functions and put them to cypress commands.js file
 // 1. sign_up_API
 // 2. log_in_API
 // 3. logout_API
 // Refactor your tests using these functions
+
+// homework 16.8 - create following API functions and put them to cypress commands.js file
+// 1. create_bank_account_API(bankName, accountNumber, routingNumber) [POST /bankAccounts]
+// 2. delete_bank_account_API(bankAccountId) [DELETE /contacts/:bankAccountId]
+// 3. add_contact_API(userId) [POST /contacts]
+// 4. delete_contact(userId) [DELETE /contacts/:contactId]
